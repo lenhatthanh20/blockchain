@@ -44,7 +44,10 @@ $(document).ready(function(){
     $(document).on("click", "#accept", function() {
         $.post('confirm.php', {confirm: 'ok'},
         function(returnedData){
-            alert('asdfsdfasdf');
+            $('#accept').remove();
+            $('#reject').remove();
+            $('#textInfo').remove();
+            alert('Accepted!');
         });
     });
 });

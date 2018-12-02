@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.31, created on 2018-12-01 05:14:29
+<?php /* Smarty version 2.6.31, created on 2018-12-02 02:56:18
          compiled from doctor.tpl */ ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
           integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="css/style.css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
     <title>Dashboard</title>
 </head>
@@ -36,10 +35,6 @@
 </button>
         <div class="row">
             <div class="col-12">
-                <span class="badge badge-info">Your private key: <?php echo $this->_tpl_vars['private_key']; ?>
-</span>
-                <span class="badge badge-info">Your public key: <?php echo $this->_tpl_vars['public_key']; ?>
-</span>
             </div>
         </div>
         <div class="row mt-5">

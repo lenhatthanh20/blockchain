@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.31, created on 2018-12-01 11:22:48
+<?php /* Smarty version 2.6.31, created on 2018-12-02 02:46:51
          compiled from dashboard.tpl */ ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -41,11 +41,7 @@
 </button>
         <div class="row">
             <div class="col-12">
-                <span class="badge badge-info">Your private key: <?php echo $this->_tpl_vars['private_key']; ?>
-</span>
-                <span class="badge badge-info">Your public key: <?php echo $this->_tpl_vars['public_key']; ?>
-</span>
-            </div>
+                </div>
         </div>
         <div class="row mt-5">
             <div class="col">

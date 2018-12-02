@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.31, created on 2018-12-01 03:37:24
+<?php /* Smarty version 2.6.31, created on 2018-12-02 03:25:17
          compiled from login.tpl */ ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -48,7 +48,7 @@
 </div>
 
 <!-- Footer -->
-<footer class="bg-dark text-white mt-5 p-4 text-center">
+<footer class="bg-dark text-white mt-5 p-4 text-center fixed-bottom">
     Copyright &copy; 2018 Master Mind
 </footer>
 

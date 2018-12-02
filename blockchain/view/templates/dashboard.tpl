@@ -38,9 +38,7 @@
         <button type="button" class="btn btn-dark mb-5 btn-lg">User ID: {$id}</button>
         <div class="row">
             <div class="col-12">
-                <span class="badge badge-info">Your private key: {$private_key}</span>
-                <span class="badge badge-info">Your public key: {$public_key}</span>
-            </div>
+                </div>
         </div>
         <div class="row mt-5">
             <div class="col">
